@@ -11,7 +11,7 @@
     var style=document.createElement("style");
     style.setAttribute("type","text/css");
     style.appendChild(document.createTextNode(cssText));
-    document.getElementsByTagName("head")[0].appendChild(style);
+    if(document.getElementsByTagName("head")&&document.getElementsByTagName("head").length>0)document.getElementsByTagName("head")[0].appendChild(style);
 })();
 
 //main function
