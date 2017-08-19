@@ -12,7 +12,7 @@ Pikaday
 * No dependencies (but plays well with [Moment.js][moment])
 * Modular CSS classes for easy styling
 
-[**Try Pikaday Demo →**][pikaday2-datetimepicker]
+[**Try Pikaday Demo →**](https://huangyifu.github.io/pikaday2-datetimepicker)
 
 
 **Production ready?** Since version 1.0.0 Pikaday is stable and used in production. If you do however find bugs or have feature requests please submit them to the [GitHub issue tracker][issues].
