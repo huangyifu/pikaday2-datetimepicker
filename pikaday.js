@@ -835,13 +835,14 @@
             }
 
             // If no format is given, set based on showTime
-            if (opts.format === null) {
+	    if (opts.format === null) {
                 opts.format = 'YYYY-MM-DD';
+		    
+                if (opts.showTime) {
+            	    opts.format += ' HH:mm:ss';
+                }
             }
 
-            if (opts.showTime) {
-            	opts.format += ' HH:mm:ss';
-            }
 
             return opts;
         },
